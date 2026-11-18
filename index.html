@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="tr" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veri Bilimi ve Yapay Zeka Uzmanlığı Programı</title>
+    <meta name="description" content="Sıfırdan ileri seviyeye uygulamalı Veri Bilimi, Makine Öğrenmesi ve Yapay Zeka Uzmanlığı eğitimi. Gerçek projelerle kariyerinizi dönüştürün.">
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome İkonlar -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts: Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        .gradient-text {
+            background: linear-gradient(90deg, #38bdf8, #818cf8);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    </style>
+</head>
+<body class="bg-slate-950 text-slate-200 antialiased selection:bg-sky-500 selection:text-white">
+
+    <!-- Üst Menü (Navbar) -->
+    <header class="fixed w-full top-0 z-50 bg-slate-950/80 backdrop-blur-md border-b border-slate-800">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+            <a href="#" class="text-xl font-extrabold tracking-tight text-white flex items-center gap-2">
+                <i class="fa-solid fa-brain text-sky-400"></i>
+                <span>AI & Data <span class="text-sky-400">Akademi</span></span>
+            </a>
+            <nav class="hidden md:flex space-x-8 text-sm font-medium text-slate-300">
+                <a href="#hakkinda" class="hover:text-sky-400 transition">Program Hakkında</a>
+                <a href="#mufredat" class="hover:text-sky-400 transition">Müfredat</a>
+                <a href="#kazanimlar" class="hover:text-sky-400 transition">Kazanımlar</a>
+                <a href="#sss" class="hover:text-sky-400 transition">S.S.S.</a>
+            </nav>
+            <a href="#basvuru" class="bg-sky-500 hover:bg-sky-400 text-slate-950 font-semibold text-sm px-4 py-2 rounded-lg transition shadow-lg shadow-sky-500/20">
+                Hemen Başvur
+            </a>
+        </div>
+    </header>
+
+    <!-- Hero Bölümü -->
+    <section class="pt-32 pb-20 md:pt-40 md:pb-28 px-4 relative overflow-hidden">
+        <div class="max-w-5xl mx-auto text-center relative z-10">
+            <span class="inline-block py-1 px-3 rounded-full bg-sky-500/10 border border-sky-500/30 text-sky-400 text-xs font-semibold tracking-wider uppercase mb-6">
+                Canlı & Uygulamalı Uzmanlık Programı
+            </span>
+            <h1 class="text-4xl md:text-6xl font-extrabold text-white tracking-tight leading-tight mb-6">
+                Veriyi Geleceğe Dönüştür:<br>
+                <span class="gradient-text">Veri Bilimi ve Yapay Zeka Uzmanlığı</span>
+            </h1>
+            <p class="text-lg md:text-xl text-slate-400 max-w-2xl mx-auto mb-10 leading-relaxed">
+                Teoride boğulmadan; Python, Makine Öğrenmesi, Derin Öğrenme ve Üretken Yapay Zeka (GenAI) projeleri geliştirerek sektöre hazır bir uzman olun.
+            </p>
+            <div class="flex flex-col sm:flex-row justify-center gap-4">
+                <a href="#basvuru" class="bg-sky-500 hover:bg-sky-400 text-slate-950 font-bold px-8 py-4 rounded-xl text-base transition shadow-lg shadow-sky-500/25 flex items-center justify-center gap-2">
+                    <span>Ücretsiz Ön Görüşme / Kayıt</span>
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+                <a href="#mufredat" class="bg-slate-900 hover:bg-slate-800 border border-slate-700 text-white font-semibold px-8 py-4 rounded-xl text-base transition flex items-center justify-center gap-2">
+                    <i class="fa-solid fa-list-check text-sky-400"></i>
+                    <span>Müfredatı İncele</span>
+                </a>
+            </div>
+            
+            <!-- İstatistikler -->
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-6 mt-16 pt-10 border-t border-slate-800/80 max-w-4xl mx-auto">
+                <div>
+                    <div class="text-3xl font-extrabold text-white">16 Hafta</div>
+                    <div class="text-sm text-slate-400 mt-1">Yoğun Canlı Eğitim</div>
+                </div>
+                <div>
+                    <div class="text-3xl font-extrabold text-white">10+ Proje</div>
+                    <div class="text-sm text-slate-400 mt-1">Gerçek Veri Setleriyle</div>
+                </div>
+                <div>
+                    <div class="text-3xl font-extrabold text-white">%100</div>
+                    <div class="text-sm text-slate-400 mt-1">Uygulamalı Kodlama</div>
+                </div>
+                <div>
+                    <div class="text-3xl font-extrabold text-white">1-1</div>
+                    <div class="text-sm text-slate-400 mt-1">Mentorluk & Portfolyo</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Program Hakkında / Kimler Katılmalı -->
+    <section id="hakkinda" class="py-20 bg-slate-900/50 border-y border-slate-800/60 px-4">
+        <div class="max-w-6xl mx-auto">
+            <div class="text-center max-w-2xl mx-auto mb-16">
+                <h2 class="text-3xl font-bold text-white mb-4">Bu Eğitim Kimler İçin Tasarlandı?</h2>
+                <p class="text-slate-400">Kodlama geçmişiniz olsun ya da olmasın, analitik düşünme becerinizi yapay zeka araçlarıyla birleştirmek istiyorsanız doğru yerdesiniz.</p>
+            </div>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-slate-900 p-8 rounded-2xl border border-slate-800 hover:border-sky-500/40 transition">
+                    <div class="w-12 h-12 bg-sky-500/10 rounded-xl flex items-center justify-center text-sky-400 text-xl mb-6">
+                        <i class="fa-solid fa-laptop-code"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-3">Kariyer Değiştirmek İsteyenler</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed">Farklı bir disiplinden gelip teknoloji dünyasının en yüksek talep gören alanı olan Veri Bilimi ve Yapay Zeka'ya geçiş yapmak isteyen profesyoneller.</p>
+                </div>
+                <div class="bg-slate-900 p-8 rounded-2xl border border-slate-800 hover:border-sky-500/40 transition">
+                    <div class="w-12 h-12 bg-indigo-500/10 rounded-xl flex items-center justify-center text-indigo-400 text-xl mb-6">
+                        <i class="fa-solid fa-graduation-cap"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-3">Öğrenciler ve Yeni Mezunlar</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed">Teorik üniversite bilgilerini gerçek dünya projeleriyle destekleyip mezun olmadan güçlü bir GitHub portfolyosu oluşturmak isteyenler.</p>
+                </div>
+                <div class="bg-slate-900 p-8 rounded-2xl border border-slate-800 hover:border-sky-500/40 transition">
+                    <div class="w-12 h-12 bg-emerald-500/10 rounded-xl flex items-center justify-center text-emerald-400 text-xl mb-6">
+                        <i class="fa-solid fa-chart-line"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-3">Analistler ve Mühendisler</h3>
+                    <p class="text-slate-400 text-sm leading-relaxed">Mevcut iş süreçlerine makine öğrenmesi modelleri, tahmine dayalı analitik ve yapay zeka otomasyonları entegre etmek isteyen çalışanlar.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Eğitim Müfredatı -->
+    <section id="mufredat" class="py-20 px-4">
+        <div class="max-w-5xl mx-auto">
+            <div class="text-center max-w-2xl mx-auto mb-16">
+                <h2 class="text-3xl font-bold text-white mb-4">Adım Adım Eğitim Müfredatı</h2>
+                <p class="text-slate-400">Temel Python programlamadan başlayıp modelleri canlıya almaya (MLOps) uzanan uçtan uca yol haritası.</p>
+            </div>
+
+            <div class="space-y-6">
+                <!-- Modül 1 -->
+                <div class="bg-slate-900 border border-slate-800 rounded-2xl p-6 md:p-8 flex flex-col md:flex-row gap-6 items-start">
+                    <div class="bg-sky-500/10 text-sky-400 font-bold px-4 py-2 rounded-lg text-sm shrink-0">
+                        MODÜL 01
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-bold text-white mb-2">Veri Bilimi İçin Python ve Veri Manipülasyonu</h3>
+                        <p class="text-slate-400 text-sm mb-4">Python temelleri, veri yapıları, NumPy ile vektörel işlemler, Pandas ile büyük veri setlerini temizleme, dönüştürme ve keşifçi veri analizi (EDA).</p>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="text-xs bg-slate-800 text-slate-300 px-3 py-1 rounded-md">Python</span>
+                            <span class="text-xs bg-slate-800 text-slate-300 px-3 py-1 rounded-md">NumPy</span>
+                            <span class="text-xs bg-slate-800 text-slate-300 px-3 py-1 rounded-md">Pandas</span>
+                            <span class="text-xs bg-slate-800 text-slate-300 px-3 py-1 rounded-md">Matplotlib & Seaborn</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Modül 2 -->
+                <div class="bg-slate-900 border border-slate-800 rounded-2xl p-6 md:p-8 flex flex-col md:flex-row gap-6 items-start">
+                    <div class="bg-sky-500/10 text-sky-400 font-bold px-4 py-2 rounded-lg text-sm shrink-0">
+                        MODÜL 02
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-bold text-white mb-2">Makine Öğrenmesi (Machine Learning)</h3>
+                        <p class="text-slate-400 text-sm mb-4">Gözetimli ve gözetimsiz öğrenme algoritmaları. Regresyon, Sınıflandırma, Karar Ağaçları, Random Forest, XGBoost, LightGBM ve Kümeleme teknikleri.</p>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="text-xs bg-slate-800 text-slate-300 px-3 py-1 rounded-md">Scikit-Learn</span>
+                            <span class="text-xs bg-slate-800 text-slate-300 px-3 py-1 rounded-md">XGBoost / LightGBM</span>
+                            <span class="text-xs bg-slate-800 text-slate-300 px-3 py-1 rounded-md">Feature Engineering</span>
+                            <span class="text-xs bg-slate-800 text-slate-300 px-3 py-1 rounded-md">Hiperparametre Optimizasyonu</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Modül 3 -->
+                <div class="bg-slate-900 border border-slate-800 rounded-2xl p-6 md:p-8 flex flex-col md:flex-row gap-6 items-start">
+                    <div class="bg-sky-500/10 text-sky-400 font-bold px-4 py-2 rounded-lg text-sm shrink-0">
+                        MODÜL 03
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-bold text-white mb-2">Derin Öğrenme ve Bilgisayarlı Görü (Deep Learning & CV)</h3>
+                        <p class="text-slate-400 text-sm mb-4">Yapay sinir ağları mimarisi, Görüntü İşleme (CNN), nesne tespiti ve transfer öğrenme ile gerçek zamanlı görüntü sınıflandırma uygulamaları.</p>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="text-xs bg-slate-800 text-slate-300 px-3 py-1 rounded-md">TensorFlow / Keras</span>
+                            <span class="text-xs bg-slate-800 text-slate-300 px-3 py-1 rounded-md">OpenCV</span>
+                            <span class="text-xs bg-slate-800 text-slate-300 px-3 py-1 rounded-md">YOLO</span>
+                            <span class="text-xs bg-slate-800 text-slate-300 px-3 py-1 rounded-md">CNN</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Modül 4 -->
+                <div class="bg-slate-900 border border-slate-800 rounded-2xl p-6 md:p-8 flex flex-col md:flex-row gap-6 items-start">
+                    <div class="bg-sky-500/10 text-sky-400 font-bold px-4 py-2 rounded-lg text-sm shrink-0">
+                        MODÜL 04
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-bold text-white mb-2">Üretken Yapay Zeka (GenAI) ve Model Yayına Alma (MLOps)</h3>
+                        <p class="text-slate-400 text-sm mb-4">Büyük Dil Modelleri (LLM) entegrasyonu, RAG mimarileri ve eğitilen makine öğrenmesi modellerinin web arayüzüyle canlıya alınması.</p>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="text-xs bg-slate-800 text-slate-300 px-3 py-1 rounded-md">LLM & API Entegrasyonu</span>
+                            <span class="text-xs bg-slate-800 text-slate-300 px-3 py-1 rounded-md">Gradio / Streamlit</span>
+                            <span class="text-xs bg-slate-800 text-slate-300 px-3 py-1 rounded-md">Hugging Face</span>
+                            <span class="text-xs bg-slate-800 text-slate-300 px-3 py-1 rounded-md">Git & GitHub</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Kazanımlar -->
+    <section id="kazanimlar" class="py-20 bg-slate-900/50 border-y border-slate-800/60 px-4">
+        <div class="max-w-5xl mx-auto">
+            <h2 class="text-3xl font-bold text-white text-center mb-12">Program Sonunda Neler Kazanacaksınız?</h2>
+            <div class="grid md:grid-cols-2 gap-6">
+                <div class="flex items-start gap-4">
+                    <i class="fa-solid fa-circle-check text-sky-400 text-xl mt-1"></i>
+                    <div>
+                        <h4 class="font-bold text-white">Uçtan Uca Proje Deneyimi</h4>
+                        <p class="text-sm text-slate-400 mt-1">Ham veriyi alıp temizleme, model kurma ve son kullanıcıya sunma süreçlerinin tamamını tek başınıza yönetebileceksiniz.</p>
+                    </div>
+                </div>
+                <div class="flex items-start gap-4">
+                    <i class="fa-solid fa-circle-check text-sky-400 text-xl mt-1"></i>
+                    <div>
+                        <h4 class="font-bold text-white">İşverenlerin Aradığı GitHub Portfolyosu</h4>
+                        <p class="text-sm text-slate-400 mt-1">Eğitim boyunca geliştirdiğiniz gerçek veri seti projelerini dokümante edilmiş şekilde GitHub profilinizde sergileyeceksiniz.</p>
+                    </div>
+                </div>
+                <div class="flex items-start gap-4">
+                    <i class="fa-solid fa-circle-check text-sky-400 text-xl mt-1"></i>
+                    <div>
+                        <h4 class="font-bold text-white">Canlı Soru-Cevap ve Kod İncelemesi</h4>
+                        <p class="text-sm text-slate-400 mt-1">Takıldığınız noktalarda anında destek alacak, yazdığınız kodların en iyi pratiklere (best practices) göre değerlendirilmesini sağlayacaksınız.</p>
+                    </div>
+                </div>
+                <div class="flex items-start gap-4">
+                    <i class="fa-solid fa-circle-check text-sky-400 text-xl mt-1"></i>
+                    <div>
+                        <h4 class="font-bold text-white">Kariyer ve Mülakat Hazırlığı</h4>
+                        <p class="text-sm text-slate-400 mt-1">Teknik mülakat soruları, CV optimizasyonu ve LinkedIn profil yapılandırması ile iş başvurularına hazır hale geleceksiniz.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sıkça Sorulan Sorular -->
+    <section id="sss" class="py-20 px-4">
+        <div class="max-w-3xl mx-auto">
+            <h2 class="text-3xl font-bold text-white text-center mb-12">Sıkça Sorulan Sorular</h2>
+            <div class="space-y-4">
+                <details class="bg-slate-900 border border-slate-800 rounded-xl p-5 group">
+                    <summary class="font-semibold text-white cursor-pointer flex justify-between items-center">
+                        <span>Hiç yazılım bilgim yok, katılabilir miyim?</span>
+                        <i class="fa-solid fa-chevron-down text-slate-400 group-open:rotate-180 transition"></i>
+                    </summary>
+                    <p class="text-slate-400 text-sm mt-3 leading-relaxed">Evet. İlk modülümüz sıfırdan Python programlama ve veri bilimi temelleriyle başlar. Düzenli pratik yaptığınız sürece rahatlıkla takip edebilirsiniz.</p>
+                </details>
+                <details class="bg-slate-900 border border-slate-800 rounded-xl p-5 group">
+                    <summary class="font-semibold text-white cursor-pointer flex justify-between items-center">
+                        <span>Dersler canlı mı işleniyor, kayıtlar paylaşılıyor mu?</span>
+                        <i class="fa-solid fa-chevron-down text-slate-400 group-open:rotate-180 transition"></i>
+                    </summary>
+                    <p class="text-slate-400 text-sm mt-3 leading-relaxed">Tüm dersler canlı ve etkileşimli olarak işlenir. Ders bitiminde video kayıtları, Jupyter Notebook dosyaları ve veri setleri katılımcılarla paylaşılır.</p>
+                </details>
+                <details class="bg-slate-900 border border-slate-800 rounded-xl p-5 group">
+                    <summary class="font-semibold text-white cursor-pointer flex justify-between items-center">
+                        <span>Güçlü bir bilgisayara ihtiyacım var mı?</span>
+                        <i class="fa-solid fa-chevron-down text-slate-400 group-open:rotate-180 transition"></i>
+                    </summary>
+                    <p class="text-slate-400 text-sm mt-3 leading-relaxed">Hayır. Eğitim boyunca Google Colab gibi bulut tabanlı ücretsiz GPU ortamlarını da kullanacağımız için standart bir bilgisayar ve internet bağlantısı yeterlidir.</p>
+                </details>
+            </div>
+        </div>
+    </section>
+
+    <!-- Başvuru / İletişim Bölümü -->
+    <section id="basvuru" class="py-20 px-4">
+        <div class="max-w-4xl mx-auto bg-gradient-to-br from-slate-900 to-slate-800 border border-slate-700 rounded-3xl p-8 md:p-12 text-center shadow-2xl">
+            <h2 class="text-3xl md:text-4xl font-extrabold text-white mb-4">Yeni Dönem Kayıtları Başladı</h2>
+            <p class="text-slate-300 max-w-xl mx-auto mb-8">
+                Kontenjanlarımız sınırlıdır. Eğitim takvimi, ücretlendirme ve detaylı müfredat bilgisi için aşağıdaki kanallardan hemen iletişime geçebilirsiniz.
+            </p>
+            <div class="flex flex-col sm:flex-row justify-center gap-4">
+                <!-- Kendi WhatsApp numaranı veya Form linkini buraya ekle -->
+                <a href="https://wa.me/905000000000?text=Veri%20Bilimi%20ve%20Yapay%20Zeka%20egitimi%20hakkinda%20bilgi%20almak%20istiyorum." target="_blank" class="bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-bold px-8 py-4 rounded-xl transition flex items-center justify-center gap-2">
+                    <i class="fa-brands fa-whatsapp text-xl"></i>
+                    <span>WhatsApp ile Bilgi Al</span>
+                </a>
+                <!-- Kendi E-posta adresini veya Google Form linkini buraya ekle -->
+                <a href="mailto:egitim@ornekdomain.com?subject=Veri%20Bilimi%20Egitimi%20Basvurusu" class="bg-sky-500 hover:bg-sky-400 text-slate-950 font-bold px-8 py-4 rounded-xl transition flex items-center justify-center gap-2">
+                    <i class="fa-solid fa-envelope"></i>
+                    <span>E-Posta Gönder</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Alt Bilgi (Footer) -->
+    <footer class="border-t border-slate-800 py-10 text-center text-slate-500 text-sm px-4">
+        <div class="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center gap-4">
+            <p>© 2026 Veri Bilimi ve Yapay Zeka Uzmanlığı. Tüm hakları saklıdır.</p>
+            <div class="flex space-x-6 text-lg">
+                <a href="#" class="hover:text-sky-400 transition"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#" class="hover:text-sky-400 transition"><i class="fa-brands fa-github"></i></a>
+                <a href="#" class="hover:text-sky-400 transition"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
